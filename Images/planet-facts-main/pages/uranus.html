@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Planet Facts</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="../index.html" class="logo">The planets</a>
+      <img
+        src="../assets/icon-hamburger.svg"
+        alt="Menu-btn"
+        class="menu-open"
+      />
+      <nav class="nav">
+        <a href="../index.html" class="nav-link mercury">Mercury</a>
+        <a href="./venus.html" class="nav-link venus">Venus</a>
+        <a href="./earth.html" class="nav-link earth">Earth</a>
+        <a href="./mars.html" class="nav-link mars">Mars</a>
+        <a href="./jupiter.html" class="nav-link jupiter">Jupiter</a>
+        <a href="./saturn.html" class="nav-link saturn">Saturn</a>
+        <a href="./uranus.html" class="nav-link active uranus">Uranus</a>
+        <a href="./neptune.html" class="nav-link neptune">Neptune</a>
+      </nav>
+      <div class="mobile-menu">
+        <a href="../index.html" class="nav-link active mercury">Mercury</a>
+        <a href="./venus.html" class="nav-link venus">Venus</a>
+        <a href="./earth.html" class="nav-link earth">Earth</a>
+        <a href="./mars.html" class="nav-link mars">Mars</a>
+        <a href="./jupiter.html" class="nav-link jupiter">Jupiter</a>
+        <a href="./saturn.html" class="nav-link saturn">Saturn</a>
+        <a href="./uranus.html" class="nav-link uranus">Uranus</a>
+        <a href="./neptune.html" class="nav-link neptune">Neptune</a>
+      </div>
+    </header>
+    <section class="options">
+      <button class="option option-active">Overview</button>
+      <button class="option">Structure</button>
+      <button class="option">Surface</button>
+    </section>
+    <main>
+      <div class="main-content">
+        <div class="planet__images">
+          <img
+            src="../assets/planet-uranus.svg"
+            alt="Uranus"
+            class="planet_img img-show"
+          />
+          <img
+            src="../assets/planet-uranus-internal.svg"
+            alt="Uranus"
+            class="planet_img"
+          />
+          <div class="surface">
+            <img
+              src="../assets/planet-uranus.svg"
+              alt="Uranus"
+              class="planet_img"
+            />
+            <img
+              src="../assets/geology-uranus.png"
+              alt="Uranus Geology"
+              class="surface-geology"
+            />
+          </div>
+        </div>
+        <div class="planet__info">
+          <div class="planet__details">
+            <h1 class="planet-name">Uranus</h1>
+            <p class="description show-description">
+              Uranus is the seventh planet from the Sun. Its name is a reference
+              to the Greek god of the sky, Uranus according to Greek mythology,
+              was the great-grandfather of Ares. It has the third-largest
+              planetary radius and fourth-largest planetary mass in the Solar
+              System.
+            </p>
+            <p class="description">
+              The standard model of Uranus's structure is that it consists of
+              three layers: a rocky (silicate/iron–nickel) core in the centre,
+              an icy mantle in the middle and an outer gaseous hydrogen/helium
+              envelope. The core is relatively small, with a mass of only 0.55
+              Earth masses.
+            </p>
+            <p class="description">
+              The composition of Uranus's atmosphere is different from its bulk,
+              consisting mainly of molecular hydrogen and helium. The helium
+              molar fraction, i.e. the number of helium atoms per molecule of
+              gas, is 0.15±0.03 in the upper troposphere.
+            </p>
+            <p class="planet-link">
+              Source :
+              <a
+                href="https://en.wikipedia.org/wiki/Uranus"
+                class="source-link"
+                target="_blank"
+                >Wikipedia</a
+              >
+              <img
+                src="../assets/icon-source.svg"
+                alt="Source Icon"
+                class="source-icon"
+              />
+            </p>
+          </div>
+          <div class="tab-options">
+            <button class="tab-option uranus option-active">01 Overview</button>
+            <button class="tab-option uranus">02 Internal Structure</button>
+            <button class="tab-option uranus">03 Surface Geology</button>
+          </div>
+        </div>
+      </div>
+      <div class="facts">
+        <div class="fact">
+          <h2 class="fact__title">Rotation Time</h2>
+          <h3 class="fact__data">17.2 Hours</h3>
+        </div>
+        <div class="fact">
+          <h2 class="fact__title">Revolution Time</h2>
+          <h3 class="fact__data">84 Days</h3>
+        </div>
+        <div class="fact">
+          <h2 class="fact__title">Radius</h2>
+          <h3 class="fact__data">25,362 KM</h3>
+        </div>
+        <div class="fact">
+          <h2 class="fact__title">Average Temp.</h2>
+          <h3 class="fact__data">-195°C</h3>
+        </div>
+      </div>
+    </main>
+    <script src="../app.js"></script>
+  </body>
+</html>

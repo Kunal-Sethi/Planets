@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Planet Facts</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="../index.html" class="logo">The planets</a>
+      <img
+        src="../assets/icon-hamburger.svg"
+        alt="Menu-btn"
+        class="menu-open"
+      />
+      <nav class="nav">
+        <a href="../index.html" class="nav-link mercury">Mercury</a>
+        <a href="./venus.html" class="nav-link venus">Venus</a>
+        <a href="./earth.html" class="nav-link earth">Earth</a>
+        <a href="./mars.html" class="nav-link active mars">Mars</a>
+        <a href="./jupiter.html" class="nav-link jupiter">Jupiter</a>
+        <a href="./saturn.html" class="nav-link saturn">Saturn</a>
+        <a href="./uranus.html" class="nav-link uranus">Uranus</a>
+        <a href="./neptune.html" class="nav-link neptune">Neptune</a>
+      </nav>
+      <div class="mobile-menu">
+        <a href="../index.html" class="nav-link active mercury">Mercury</a>
+        <a href="./venus.html" class="nav-link venus">Venus</a>
+        <a href="./earth.html" class="nav-link earth">Earth</a>
+        <a href="./mars.html" class="nav-link mars">Mars</a>
+        <a href="./jupiter.html" class="nav-link jupiter">Jupiter</a>
+        <a href="./saturn.html" class="nav-link saturn">Saturn</a>
+        <a href="./uranus.html" class="nav-link uranus">Uranus</a>
+        <a href="./neptune.html" class="nav-link neptune">Neptune</a>
+      </div>
+    </header>
+    <section class="options">
+      <button class="option option-active">Overview</button>
+      <button class="option">Structure</button>
+      <button class="option">Surface</button>
+    </section>
+    <main>
+      <div class="main-content">
+        <div class="planet__images">
+          <img
+            src="../assets/planet-mars.svg"
+            alt="Mars"
+            class="planet_img img-show"
+          />
+          <img
+            src="../assets/planet-mars-internal.svg"
+            alt="Mars"
+            class="planet_img"
+          />
+          <div class="surface">
+            <img
+              src="../assets/planet-mars.svg"
+              alt="Mars"
+              class="planet_img"
+            />
+            <img
+              src="../assets/geology-mars.png"
+              alt="Mars Geology"
+              class="surface-geology"
+            />
+          </div>
+        </div>
+        <div class="planet__info">
+          <div class="planet__details">
+            <h1 class="planet-name">Mars</h1>
+            <p class="description show-description">
+              Mars is the fourth planet from the Sun and the second-smallest
+              planet in the Solar System, being larger than only Mercury. In
+              English, Mars carries the name of the Roman god of war and is
+              often referred to as the "Red Planet".
+            </p>
+            <p class="description">
+              Like Earth, Mars has differentiated into a dense metallic core
+              overlaid by less dense materials. Scientists initially determined
+              that the core is at least partially liquid. Current models of its
+              interior imply a core consisting primarily of iron and nickel with
+              about 16–17% sulfur.
+            </p>
+            <p class="description">
+              Mars is a terrestrial planet whose surface consists of minerals
+              containing silicon and oxygen, metals, and other elements that
+              typically make up rock. The surface is primarily composed of
+              tholeiitic basalt, although parts are more silica-rich than
+              typical basalt.
+            </p>
+            <p class="planet-link">
+              Source :
+              <a
+                href="https://en.wikipedia.org/wiki/Mars"
+                class="source-link"
+                target="_blank"
+                >Wikipedia</a
+              >
+              <img
+                src="../assets/icon-source.svg"
+                alt="Source Icon"
+                class="source-icon"
+              />
+            </p>
+          </div>
+          <div class="tab-options">
+            <button class="tab-option mars option-active">01 Overview</button>
+            <button class="tab-option mars">02 Internal Structure</button>
+            <button class="tab-option mars">03 Surface Geology</button>
+          </div>
+        </div>
+      </div>
+      <div class="facts">
+        <div class="fact">
+          <h2 class="fact__title">Rotation Time</h2>
+          <h3 class="fact__data">1.03 Days</h3>
+        </div>
+        <div class="fact">
+          <h2 class="fact__title">Revolution Time</h2>
+          <h3 class="fact__data">1.88 Days</h3>
+        </div>
+        <div class="fact">
+          <h2 class="fact__title">Radius</h2>
+          <h3 class="fact__data">3,389.5 KM</h3>
+        </div>
+        <div class="fact">
+          <h2 class="fact__title">Average Temp.</h2>
+          <h3 class="fact__data">-28°C</h3>
+        </div>
+      </div>
+    </main>
+    <script src="../app.js"></script>
+  </body>
+</html>

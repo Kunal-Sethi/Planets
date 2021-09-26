@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Planet Facts</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="../index.html" class="logo">The planets</a>
+      <img
+        src="../assets/icon-hamburger.svg"
+        alt="Menu-btn"
+        class="menu-open"
+      />
+      <nav class="nav">
+        <a href="../index.html" class="nav-link mercury">Mercury</a>
+        <a href="./venus.html" class="nav-link venus">Venus</a>
+        <a href="./earth.html" class="nav-link earth">Earth</a>
+        <a href="./mars.html" class="nav-link mars">Mars</a>
+        <a href="./jupiter.html" class="nav-link jupiter">Jupiter</a>
+        <a href="./saturn.html" class="nav-link saturn">Saturn</a>
+        <a href="./uranus.html" class="nav-link uranus">Uranus</a>
+        <a href="./neptune.html" class="nav-link active neptune">Neptune</a>
+      </nav>
+      <div class="mobile-menu">
+        <a href="../index.html" class="nav-link active mercury">Mercury</a>
+        <a href="./venus.html" class="nav-link venus">Venus</a>
+        <a href="./earth.html" class="nav-link earth">Earth</a>
+        <a href="./mars.html" class="nav-link mars">Mars</a>
+        <a href="./jupiter.html" class="nav-link jupiter">Jupiter</a>
+        <a href="./saturn.html" class="nav-link saturn">Saturn</a>
+        <a href="./uranus.html" class="nav-link uranus">Uranus</a>
+        <a href="./neptune.html" class="nav-link neptune">Neptune</a>
+      </div>
+    </header>
+    <section class="options">
+      <button class="option option-active">Overview</button>
+      <button class="option">Structure</button>
+      <button class="option">Surface</button>
+    </section>
+    <main>
+      <div class="main-content">
+        <div class="planet__images">
+          <img
+            src="../assets/planet-neptune.svg"
+            alt="Neptune"
+            class="planet_img img-show"
+          />
+          <img
+            src="../assets/planet-neptune-internal.svg"
+            alt="Neptune"
+            class="planet_img"
+          />
+          <div class="surface">
+            <img
+              src="../assets/planet-neptune.svg"
+              alt="Neptune"
+              class="planet_img"
+            />
+            <img
+              src="../assets/geology-neptune.png"
+              alt="Neptune Geology"
+              class="surface-geology"
+            />
+          </div>
+        </div>
+        <div class="planet__info">
+          <div class="planet__details">
+            <h1 class="planet-name">Neptune</h1>
+            <p class="description show-description">
+              Neptune is the eighth and farthest-known Solar planet from the
+              Sun. In the Solar System, it is the fourth-largest planet by
+              diameter, the third-most-massive planet, and the densest giant
+              planet. It is 17 times the mass of Earth, more massive than its
+              near-twin Uranus.
+            </p>
+            <p class="description">
+              Neptune's internal structure resembles that of Uranus. Its
+              atmosphere forms about 5% to 10% of its mass and extends perhaps
+              10% to 20% of the way towards the core. Increasing concentrations
+              of methane, ammonia and water are found in the lower regions.
+            </p>
+            <p class="description">
+              Neptune's atmosphere is 80% hydrogen and 19% helium. A trace
+              amount of methane is also present. Prominent absorption bands of
+              methane exist at wavelengths above 600 nm, in the red and infrared
+              portion of the spectrum.
+            </p>
+            <p class="planet-link">
+              Source :
+              <a
+                href="https://en.wikipedia.org/wiki/Neptune"
+                class="source-link"
+                target="_blank"
+                >Wikipedia</a
+              >
+              <img
+                src="../assets/icon-source.svg"
+                alt="Source Icon"
+                class="source-icon"
+              />
+            </p>
+          </div>
+          <div class="tab-options">
+            <button class="tab-option neptune option-active">
+              01 Overview
+            </button>
+            <button class="tab-option neptune">02 Internal Structure</button>
+            <button class="tab-option neptune">03 Surface Geology</button>
+          </div>
+        </div>
+      </div>
+      <div class="facts">
+        <div class="fact">
+          <h2 class="fact__title">Rotation Time</h2>
+          <h3 class="fact__data">16.08 Hours</h3>
+        </div>
+        <div class="fact">
+          <h2 class="fact__title">Revolution Time</h2>
+          <h3 class="fact__data">164.79 YEARS</h3>
+        </div>
+        <div class="fact">
+          <h2 class="fact__title">Radius</h2>
+          <h3 class="fact__data">24,622 KM</h3>
+        </div>
+        <div class="fact">
+          <h2 class="fact__title">Average Temp.</h2>
+          <h3 class="fact__data">-201°C</h3>
+        </div>
+      </div>
+    </main>
+    <script src="../app.js"></script>
+  </body>
+</html>
